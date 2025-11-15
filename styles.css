@@ -13,3 +13,18 @@
   .blank-ti-overlap .overlay-heading { font-size: 24px; }
   .blank-ti-overlap .overlay-text { font-size: 16px; }
 }
+
+/* Component styles from page: / */
+.blank-ti-overlap { padding: 3rem 1.5rem; background: var(--bg-light); font-family: Rubik, 'Noto Sans Hebrew', Arial, sans-serif; }
+.blank-ti-overlap .overlap-container { position: relative; height: 400px; background: linear-gradient(135deg, #e63946 0%, #c62e3a 100%); border: 2px solid var(--primary-color); border-radius: 12px; overflow: hidden; }
+.blank-ti-overlap .bg-image { position: absolute; inset: 0; opacity: 0.15; background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiNjY2MiLz48dGV4dCB4PSI1MCUiIHk9IjUwJSIgZm9udC1zaXplPSIxOCIgZmlsbD0iIzk5OSIgZm9udC1mYW1pbHk9IkFyaWFsIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+R2FsbGVyeSBJbWFnZTwvdGV4dD48L3N2Zz4='); background-size: cover; background-position: center; }
+.blank-ti-overlap .text-overlay { position: relative; padding: 4rem 2rem; display: flex; flex-direction: column; gap: 1.5rem; justify-content: center; align-items: center; height: 100%; text-align: center; z-index: 1; }
+.blank-ti-overlap .overlay-heading { font-size: 32px; font-weight: 700; color: var(--light-text); margin: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); }
+.blank-ti-overlap .overlay-text { font-size: 18px; font-weight: 400; color: var(--light-text); max-width: 600px; margin: 0; line-height: 1.6; text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2); }
+@media (max-width: 768px) {
+  .blank-ti-overlap { padding: 2rem 1rem; }
+  .blank-ti-overlap .overlap-container { height: 320px; }
+  .blank-ti-overlap .text-overlay { padding: 2rem 1.5rem; }
+  .blank-ti-overlap .overlay-heading { font-size: 24px; }
+  .blank-ti-overlap .overlay-text { font-size: 16px; }
+}
